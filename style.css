@@ -361,8 +361,8 @@ footer{
 }
 @media only screen and (min-width:300px) and (max-width:850px){
 	.next-arr, .prev-arr {
-	    height: 100px;
-	    top: 45px;
+	    height: 25px;
+	    top: 100px;
 	}
 	.section1 a{
 		font-size:18px;
