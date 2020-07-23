@@ -439,7 +439,8 @@ footer{
 		font-size: 47px;
 	}
 	.section1 div p{
-		font-size: 10px;
+		font-size: 8px;
+		text-align: center;
 	}
 	.section1 div button{
 		top:78px;
@@ -493,6 +494,8 @@ footer{
 		margin: 0;
 		height: 90%;
 		text-align: center;
+		padding-bottom:2%;
+		
 		
 	}
 	.section5 .d2{
