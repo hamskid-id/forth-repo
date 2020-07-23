@@ -186,13 +186,13 @@ a{
 }
 .prev-arr{
 	position:absolute;
-	top:135px;
+	top:100px;
 	left:10px;
 	height:25px
 }
 .next-arr{
 	position:absolute;
-	top:135px;
+	top:100px;
 	right:10px;
 	height:25px;
 }
@@ -362,7 +362,7 @@ footer{
 @media only screen and (min-width:300px) and (max-width:850px){
 	.next-arr, .prev-arr {
 	    height: 25px;
-	    top: 100px;
+	    top: 70px;
 	}
 	.section1 a{
 		font-size:18px;
