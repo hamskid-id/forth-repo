@@ -1,0 +1,539 @@
+*{
+	padding:0;
+	margin:3px;
+}
+.section1{
+	background-image:url("https://res.cloudinary.com/hamskid/image/upload/v1595422749/fifth-repo/image1_uudxxb.JPG");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	object-fit: cover;
+	padding-bottom: 3%;
+}
+body{
+	font-family: 'Blinker', sans-serif;
+
+}
+.section1 li{
+
+	display: inline;
+}
+.section1 ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.section1 a{
+	font-size: 18px;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+.section1 a:hover{
+	color: red;
+}
+.section1 nav{
+	padding:2%;
+	border-bottom:1px solid white;
+}
+.section1 p{
+	color: white;
+}
+.section1 div{
+	font-family: 'Lexend Zetta', sans-serif;
+	position: relative;
+	padding:2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:1px solid white;
+}
+.section1 div p{
+	letter-spacing: 11px;
+}
+.section1 .head1{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	color:white;
+}
+.section1 .head2{
+	margin:8%;
+	font-size: 67px;
+	color: white;
+}
+.section1 div button{
+	font-size: 11px;
+	font-weight: bold;
+	padding:15px 13px 15px 13px;
+	left: 200px;
+	top:150px;
+	position: absolute;
+}
+.section2{
+	background:	#FFFAFA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section2 header{
+	font-family: 'Lobster', cursive;
+	padding-top:2%;
+	font-size: 40px;
+	color:	#A0522D;
+}
+.section2-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.section2-div-div{
+	color:	#808080;
+	width: 30%;
+	line-height: 20px;
+}
+.section3-div-div2 .p1{
+	font-weight: bold;
+	color:	#8B0000;
+}
+.section2 li{
+	display: block;
+	font-size: 18px;
+}
+.sect2-div2{
+	background:	#D3D3D3;
+	width: 25%;
+	height: 40vh;
+	color:	#808080;
+}
+.sect2-div2 p{
+	margin:5% 5% 5% 20%;
+	color:	#8B0000;
+	font-size: 25px;
+	font-weight: bold;
+}
+.section2 img{
+	width: 100%;
+	height:43vh;
+}
+.section3{
+	padding-bottom: 3%;
+	background:#D3D3D3;
+}
+.section3-div-div2 p{
+	color:#808080;
+}
+.section3-div-div p{
+	color:	#8B0000;
+}
+.section3-div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.section3-div-div{
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.section3 header{
+    font-family: 'Lobster', cursive;
+	text-align: center;
+	padding-top:3%;
+	color:	#A0522D;
+	font-size: 40px;
+}
+.section3-div-div2{
+	width: 40%;
+	line-height: 30px;
+}
+.section3-d-d-d{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.section3-d-d-d div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section3-d-d-d p{
+	text-align: center;
+}
+.section4{
+	position:relative;
+	background-image: url("images/image1.jpg");
+	padding:8%;
+	object-fit: cover;
+	background-size: cover;
+	margin-top: -1%;
+}
+.s4-p{
+	display: none;
+}
+.section4 .quote{
+	font-size: 18px;
+	color:white;
+	text-align: center;
+}
+.s4-p.active{
+	display: block;
+}
+.prev-arr{
+	position:absolute;
+	top:100px;
+	left:10px;
+}
+.next-arr{
+	position:absolute;
+	top:100px;
+	right:10px;
+}
+.section4 .p{
+	font-size:15px;
+	color:white;
+	text-align: center;
+	margin-top:3%;
+}
+.section4 .p span{
+	font-weight: bold;
+}
+.section5{
+	background:	#FFFAFA;
+}
+.section5 header{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin:2%;
+	font-size: 40px;
+	color:	#A0522D;
+}
+.section5 .d1{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.section5 .d2,.section5 .d3,.section5 .d4{
+	position: absolute;
+	background:	#D3D3D3;
+	max-width: 70%;
+	height:35vh;
+	display: flex;
+	flex-direction: column;
+}
+.section5 .p1{
+	color: 	#DAA520;
+	font-size: 19px;
+}
+.section5 .p1 span,.section5 .p21 span{
+	font-size: 55px;
+}
+.section5 .p21{
+	color:#3CB371;
+}
+.section5 .p2{
+	color:	#8B0000;
+	font-size: 23px;
+	font-weight: bold;
+}
+.section5 .p3{
+	font-size: 15px;
+	opacity: 0.7;
+}
+.section5 img{
+	margin:0;
+	width: 100%;
+	height: 50vh;
+}
+.section5 figure{
+	margin:-0.5%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.section5 .d2{
+	top:39px;
+	left:-230px;
+}
+.section5 .d3{
+	top:39px;
+	right:-230px;
+}
+.section5 .d4{
+	top:39px;
+	left:-230px;
+}
+footer{
+	z-index: 1;
+	background:black;
+	color:white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.rec-div{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.rec-dd{
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+.rec-dd img{
+	width:100%;
+	margin:0 0 -7% 0;
+}
+.foot-d,.foot-d1{
+	flex:1;
+}
+.foot-d1{
+	font-size: 40px;
+}
+.foot-d1 p{
+	font-family: 'Lobster', cursive;
+}
+.empty-div{
+	background-color:yellow;
+	width:30%;
+	margin-bottom: 7%;
+	height:3px;
+}
+.foot-d{
+	line-height: 30px;
+}
+.rec-dd a{
+	margin: 0;
+	width: 40%;
+	color:white;
+}
+.venue{
+	display: flex;
+	flex-direction: row;
+}
+.venue a{
+	width: 6%;
+}
+.venue a:hover{
+	color: red;
+}
+.venue img{
+	width: 100%;
+}
+.foot-d .p3{
+	font-weight: bold
+}
+.img1{
+	background:white;
+	padding:7%;
+}
+@media only screen and (max-width:1030px){
+	.section1 div button{
+		top:125px;
+		left:185px;
+	}
+	.section1 a{
+		font-size:23px;
+	}
+	.sect2-div2 {
+		height:46vh;
+	}
+	.sect2-div2 p {
+		font-size:23px;
+	}
+	.section5 .p2 {
+		font-size:20px;
+	}
+	.section5 .d2,.section5 .d3,.section5 .d4{
+		top:48px;
+	}
+	.next-arr,.prev-arr{
+		height:25px;
+	}
+}
+@media only screen and (min-width:300px) and (max-width:850px){
+	.section1 a{
+		font-size:18px;
+	}
+	.next-rr,.prev-arr{
+		height: 17px;
+	}
+	.section1 div{
+		font-size: 13px;
+	}
+	.section1 div button {
+		top:99px;
+		left:165px;
+		padding: 10px 13px 10px 13px;
+	}
+	.section2-div-div {
+		font-size: 10px;
+		line-height: 15px;
+	}
+	.sect2-div2 p {
+		font-size:15px;
+	}
+	.section2 li {
+		font-size: 11px;
+	}
+	.section3-div-div2 p {
+		font-size: 12px;
+	}
+	.section3-div-div2{
+		line-height: 21px;
+	}
+	.section3-d-d-d p{
+		font-size: 11px;
+	}
+	.section4 .quote{
+		font-size: 13px;
+	}
+	.section5 figure{
+		width: 55%;
+	}
+	.section5 .d2,.section5 .d3,.section5 .d4{
+	    top:39px;
+	}
+	.section5 .d2,.section5 .d4{
+		left: -150px;
+	}
+	.section5 .d3{
+		right:-150px;
+	}
+	.section5 .p2{
+		font-size: 18px;
+	}
+	.section5 .p3{
+		font-size: 12px;
+	}
+	.foot-d{
+		line-height:20px;
+		font-size:12px;
+	}
+	.empty-div{
+		height: 1px;
+	}
+	.venue{
+		margin-top: -9%;
+	}
+	.foot-d1 p{
+		font-size: 27px;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 599px){
+	.section1 .head2{
+		font-size: 47px;
+	}
+	.section1 div p{
+		font-size: 10px;
+	}
+	.section1 div button{
+		top:78px;
+		left: 130px;
+	}
+	.sect2-div2{
+		padding-left:3%;
+		line-height:23px;
+	}
+	.section1{
+		padding-bottom: 7%;
+	}
+	.section2{
+		margin-bottom: 0;
+	}
+	.section2-div,.section3-div{
+		align-items: center;
+		flex-direction: column;
+	}
+	.section2-div-div{
+		width: 90%;
+		line-height: 18px;
+		font-size: 12px;
+	}
+	.sect2-div2{
+		width: 90%;
+	}
+	.sect2-div2 p{
+		font-size: 20px;
+	}
+	.section3{
+		margin-top: -3%;
+	}
+	.section3-div-div{
+		width: 90%;
+	}
+	.section3-div-div2{
+		width: 90%;
+		line-height: 23px;
+	}
+	.section4 .quote{
+		font-size: 11px;
+	}
+	.section5 .d2, .section5 .d3, .section5 .d4{
+		position: relative;
+		top:0;
+		left: 0;
+		right: 0;
+		max-width: 100%;
+		margin-top: 0;
+		margin: 0;
+		text-align: center;
+	}
+	.section5 .d2{
+		left:0;
+	}
+	.section5 .d3{
+		right:0;
+	}
+	.section5 .d4{
+		left:0;
+	}
+	.section5 figure{
+		width: 90%;
+	}
+	.foot-d{
+		font-size: 7px;
+	}
+	.venue a{
+		margin-top:-10px;
+		width: 14%;
+	}
+	.section1 a{
+		font-size: 15px;
+	}
+	.rec-dd a{
+		margin:-3%;
+	}
+}
+@media only screen and (min-width:300px) and (max-width:375px){
+	.section1 div p{
+		font-size: 8px;
+	}
+	.section1 div button{
+		top:67px;
+		left: 115px;
+		padding: 7px 10px 7px 10px;
+	}
+	.section5 figure,.section2-div-div,.sect2-div2{
+		width:100%;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 320px){
+	.section1 a{
+		font-size: 11px;
+	}
+	.section1 div p{
+		font-size: 5px;
+	}
+	.section1 div button{
+		top:50px;
+		left: 95px;
+	}
+}
