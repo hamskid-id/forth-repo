@@ -186,13 +186,13 @@ a{
 }
 .prev-arr{
 	position:absolute;
-	top:150px;
+	top:100px;
 	left:10px;
 	height:25px
 }
 .next-arr{
 	position:absolute;
-	top:150px;
+	top:100px;
 	right:10px;
 	height:25px;
 }
