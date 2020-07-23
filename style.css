@@ -222,7 +222,7 @@ a{
 	position: absolute;
 	background:	#D3D3D3;
 	max-width: 70%;
-	height:35vh;
+
 	display: flex;
 	flex-direction: column;
 }
