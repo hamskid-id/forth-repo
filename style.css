@@ -356,6 +356,7 @@ footer{
 		top:48px;
 	}
 	.next-arr,.prev-arr{
+		top:220px;
 		height:25px;
 	}
 }
@@ -367,7 +368,7 @@ footer{
 	.section1 a{
 		font-size:18px;
 	}
-	.next-arr,.prev-arr{
+	
 		
 
 	
