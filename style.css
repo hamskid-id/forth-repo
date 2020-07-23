@@ -361,7 +361,7 @@ footer{
 }
 @media only screen and (min-width:300px) and (max-width:850px){
 	.next-arr, .prev-arr {
-	    height: 19px;
+	    height: 100px;
 	    top: 45px;
 	}
 	.section1 a{
