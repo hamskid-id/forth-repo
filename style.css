@@ -388,7 +388,7 @@ footer{
 		font-size:15px;
 	}
 	.section2 li {
-		font-size: 11px;
+		font-size: 13x;
 	}
 	.section3-div-div2 p {
 		font-size: 12px;
@@ -471,6 +471,9 @@ footer{
 	.sect2-div2 p{
 		font-size: 20px;
 	}
+	
+		
+	
 	.section3{
 		margin-top: -3%;
 	}
@@ -494,7 +497,7 @@ footer{
 		margin: 0;
 		height: 90%;
 		text-align: center;
-		padding-bottom:2%;
+		padding-bottom:3%;
 		
 		
 	}
