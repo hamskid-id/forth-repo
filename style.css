@@ -361,16 +361,16 @@ footer{
 }
 @media only screen and (min-width:300px) and (max-width:850px){
 	.next-arr, .prev-arr {
-	    height: 25px;
+	    height: 19px;
 	    top: 70px;
 	}
 	.section1 a{
 		font-size:18px;
 	}
 	.next-arr,.prev-arr{
-		height: 19px;
-		top:150px;
-	}
+		
+
+	
 	.section1 div{
 		font-size: 13px;
 	}
